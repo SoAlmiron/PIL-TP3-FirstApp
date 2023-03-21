@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/hello_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_title"
+        android:padding="@dimen/padding_title"
+        android:textSize="@dimen/size_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/insertText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Anything"
+        android:hint="@string/insertText"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_input"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"/>
+
+    <Button
+        android:id="@+id/buttonShowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonShowText"
+        app:layout_constraintTop_toBottomOf="@id/insertText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/margin_button"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_button"/>
+
+</android.support.design.widget.CoordinatorLayout>

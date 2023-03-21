@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PIL-App-Hello-Word</string>
+
+    <string name="hello_word">Hello Word</string>
+    <string name="insertText">Insert Text</string>
+    <string name="buttonShowText">Show Text</string>
+    <string name="message_error">Please, enter a message</string>
+</resources>

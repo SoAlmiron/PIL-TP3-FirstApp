@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="margin_title">50dp</dimen>
+    <dimen name="padding_title">20dp</dimen>
+    <dimen name="size_title">45sp</dimen>
+
+    <dimen name="margin_input">350dp</dimen>
+    <dimen name="margin_horizontal_input">100dp</dimen>
+
+    <dimen name="margin_button">420dp</dimen>
+    <dimen name="margin_horizontal_button">120dp</dimen>
+</resources>
